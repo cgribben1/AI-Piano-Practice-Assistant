@@ -4,6 +4,8 @@ Here, I have designed a program to help guide piano chord practice by prompting 
 
 In its proposed use, the program is integrated into piano keyboard hardware. Following a brief calibration round in which the user is tasked with playing a series of chords - each trial resulting in a success or a failure -, the program uses logistic regression to return chords with the lowest estimated likelihood of success.
 
+User learning was simulated on 5 different chords of varying estimated difficulty, the graph of this simulation can be found in the file "Piano_practice_learning_curve.png".
+
 
 
 

@@ -53,7 +53,7 @@ results <- results[order(results$likelihood), ] # Sorting by ascending likelihoo
 
 
 
-########## PART II: Now let's train the model on just a subset of the possible chords #############################################################################################################
+########## PART II: Training the model on just a subset of the possible chords #############################################################################################################
 
 
 
@@ -112,7 +112,7 @@ results <- results[order(results$likelihood), ] # Sorting by ascending likelihoo
 
 
 
-########## PART III: Now let's implement differential chord success likelihoods as determined additively by separate chord components ###############################################################
+########## PART III: Implementing differential chord success likelihoods as determined additively by separate chord components ###############################################################
 
 
 
@@ -211,11 +211,11 @@ play_15_chords() # In addition to functionalities mentioned above, returns the 1
 
 
 
-########## PART IV: Now let's simulate player learning #############################################################################################################################################
+########## PART IV: Simulating player learning #############################################################################################################################################
 
 
 
-reps <- 200 # Setting number of reps of 15 chord sets to simulate - if resetting reps remember to run from here to reset variables assigned below.
+reps <- 100 # Setting number of reps of 15 chord sets to simulate - if resetting reps remember to run from here to reset variables assigned below.
 
 train <- get_calibration_chords(60) # Constructing a new calibration training set.
 
